@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Resources/companylogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/navigation2.css">
+    <link rel="stylesheet" href="CSS/feature.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/teams.css">
+    <link rel="stylesheet" href="CSS/id-navigation.css">
+    <link rel="stylesheet" href="CSS/Pricing.css">
+    <link rel="stylesheet" href="CSS/about_us.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Vectorify</title>
+</head>
+
+<body>
+    <nav class="navbar  h-nav-resp background-nav">
+        <ul class="nav-list v-class-resp">
+            <div class="logo v-class-resp">
+                <a href="index.html">
+                    <img src="./Resources/companylogo.png" alt="logo">
+                </a>
+            </div>
+            <li><a href="index.html" onclick="hide_navigator()">Home</a></li>
+            <li><a href="#Pricing-section" onclick="hide_navigator()">Pricing</a></li>
+            <li><a href="./about_us.html" onclick="hide_navigator()">About us</a></li>
+            <li><a href="#Footer-section" onclick="hide_navigator()">Contact</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="Hero-section parallax">
+        <div class="Hero-container">
+            <div class="Hero-left">
+                <div class="Title animate__animated animate__bounceInDown animate__slow">
+                    Vectorify
+                </div>
+                <div class="Description">
+                    Empowering Students to become the best version of themselves.
+                </div>
+                <a class="Hero-button" href="#Feature-section">
+                    Learn more
+                </a>
+            </div>
+            <!-- <div class="Hero-right">
+                <img src="Resources/Hero.png" alt="">
+            </div> -->
+        </div>
+    </section>
+    <section class="id-navigation">
+        <div class="id-nav-container">
+            <a class="id-nav-img" href="#Feature-section"><img src="./Resources/feature.png" alt=""></a>
+            <a class="id-nav-img" href="#Pricing-section"><img src="./Resources/pricing.png" alt=""></a>
+            <a class="id-nav-img" href="#Team-section"><img src="./Resources/team.png" alt=""></a>
+            <a class="id-nav-img" href="#Footer-section"><img src="./Resources/send.png" alt=""></a>
+        </div>
+    </section>
+    <section id="Feature-section" class="Feature-section">
+        <h1 class="headings" style="margin: auto; text-align: center;">What's on the table</h1>
+        <div id="feature1" class="feature">
+            <div class="left">
+                <p>Providing <b>personalised mentorship</b> from mentors from top <b>IITs/GMC's/AIIMS</b> to help you
+                    achieve your dream.</p>
+                <a class="Feature-button" href="#Pricing-section">
+                    Get Started
+                </a>
+            </div>
+            <div class="center"><img id="small" src="Resources/online_meet.png" alt="" class=""></div>
+            <div class="right"></div>
+        </div>
+        <div id="feature2" class="feature">
+            <div class="left"></div>
+            <div class="center"><img src="Resources/chat_support.png" alt=""></div>
+            <div class="right">
+                <p>Providing <b>24X7 Chat support</b> and Video sessions on <b>Google Meets</b>.</p>
+                <a class="Feature-button" href="#Pricing-section">
+                    Get Started
+                </a>
+            </div>
+        </div>
+        <div id="feature3" class="feature">
+            <div class="left">
+                <p><b>Helping</b> them to track there preparation level and indentify there weak areas and provide
+                    <b>proper guidance</b> at a <b>Affordable price</b>.</p>
+                <a class="Feature-button" href="#Pricing-section">
+                    Get Started
+                </a>
+            </div>
+            <div class="center"><img src="Resources/resource.png" alt="" class=""></div>
+            <div class="right"></div>
+        </div>
+    </section>
+    <section id="Pricing-section" class="Pricing-section">
+        <div class="container">
+            <div class="section-intro">
+                <h1 style="font-size: 40px;">Best Mentorship Plans</h1>
+                <!-- <div class="section-style"></div> -->
+            </div>
+            <div class="pricing-table__wrapper">
+                <div class="pricing-cards">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-pricing__header">
+                                <h4>11th Standard</h4><br>
+                                <h1 class="card-pricing__price" style="text-decoration: line-through;">&#x20B9;240</h1>
+                                <p>Per Month</p>
+                                <h1 class="card-pricing__price"><span>&#x20B9;180</span></h1>
+                            </div>
+                            <ul class="card-pricing__list">
+                                <li>3 Sessions per month + 1 Demo Session.</li>
+                                <li>Personalised Mentorship</li>
+                                <li>24X7 Chat support and Video google meets.</li>
+                                <li>60Rs/Session.</li>
+                            </ul>
+                            <!-- <p style="margin: 10px 40px;">* Free for students applying for exams in 2023.</p> -->
+                            <br><br><br>
+                            <div class="card-pricing__footer">
+                                <button class="button"><a href="https://forms.gle/pQQAqYQzoWx1LBQaA">Register now</a></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-pricing__header">
+                                <h4>12th Standard</h4><br>
+                                <h1 class="card-pricing__price" style="text-decoration: line-through;">&#x20B9;240</h1>
+                                <p>Per Month</p>
+                                <h1 class="card-pricing__price"><span>*Free</span></h1>
+                            </div>
+                            <ul class="card-pricing__list">
+                                <li>4 Sessions per month + 1 Demo Session.</li>
+                                <li>Personalised Mentorship</li>
+                                <li>24X7 Chat support and google meets.</li>
+                                <li>60Rs/Session</li>
+                            </ul>
+                            <p style="margin: 10px 40px;">* Free for students applying for exams in 2023.</p>
+                            <div class="card-pricing__footer">
+                                <button class="button"><a href="https://forms.gle/pQQAqYQzoWx1LBQaA">Register now</a><button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-pricing__header">
+                                <h4>Droppers</h4><br>
+                                <h1 class="card-pricing__price" style="text-decoration: line-through;">&#x20B9;240</h1>
+                                <p>Per Month</p>
+                                <h1 class="card-pricing__price"><span>*Free</span></h1>
+                            </div>
+                            <ul class="card-pricing__list">
+                                <li>4 Sessions per month + 1 Demo Session.</li>
+                                <li>Personalised Mentorship</li>
+                                <li>24X7 Chat support and google meets.</li>
+                                <li>60Rs/Session</li>
+                            </ul>
+                            <p style="margin: 10px 40px;">* Free for students applying for exams in 2023.</p>
+                            <div class="card-pricing__footer">
+                                <button class="button"><a href="https://forms.gle/pQQAqYQzoWx1LBQaA">Register now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Team-section">
+        <div class="wrapper">
+            <h1 class="headings" style="color: white">Our Mentors</h1>
+            <div class="our_team">
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_5.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Anvesh Rajguru</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE/NEET Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_0.png" alt="our_team">
+                    </div>
+                    <h3>Bhavik Nanure</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_6.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Rushikesh Bondge</h3>
+                    <p style="color:aliceblue; padding:10px">GMC Aurangabad, NEET Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_4.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Aaditya Dabhade</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_2.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Yash Biradar</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE/NEET Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_7.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Sohan Hirwe</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_8.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Karan Ghuge</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE Mentor</p>
+                </div>
+                <div class="team_member">
+                    <div class="member_img">
+                        <img src="./Resources/member_10.png" alt="our_team" class="scale_img">
+                    </div>
+                    <h3>Chandru C. P.</h3>
+                    <p style="color:aliceblue; padding:10px">IIT Kharagpur, JEE Mentor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="Footer-section">
+        <div class="our_address_container">
+            <div class="our_address_left">
+                <h1>Contact us</h1>
+                <address>
+                    <p><img src="https://img.icons8.com/ios-filled/14/eeeeee/marker.png">&ensp; Gokhale Hall of Residence, IIT kharagpur</p>
+                    <p><img src="https://img.icons8.com/ios-filled/14/eeeeee/phone.png">&ensp; 777-508-6303</p>
+                    <p><img src="https://img.icons8.com/ios-filled/14/eeeeee/mail.png">&ensp; vectorify21@gmail.com</p>
+                    <p><img src="https://img.icons8.com/ios-filled/14/eeeeee/clock.png">&ensp; 8:00 AM – 8:00 PM</p>
+                </address>
+            </div>
+            <div class="our_address_right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.8758931616485!2d87.30393637605067!3d22.320532942160284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d45e5c7874d41%3A0x22cd1b39a228028a!2sGokhale%20Hall%20Of%20Residence!5e0!3m2!1sen!2sin!4v1683270487204!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="follow">
+            <div class="drop-down">
+                <span style="padding-right: 20px;">Follow us on: </span>
+                <a target="_blank" href="https://www.linkedin.com/company/vectorify/"><img
+                        src="Resources/linkedin.png" class="icon img-zoom" alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100092432496698&mibextid=LQQJ4d"><img
+                        src="Resources/facebook.png" class="icon img-zoom" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <span style="padding: 20px; text-align: center; display: block; color: grey; background-color: rgb(19, 19, 31);">Vectorify -
+        all copyrights reserved</span>
+    <script src="script.js"></script>
+</body>
+
+</html>
